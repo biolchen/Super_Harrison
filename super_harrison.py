@@ -4,7 +4,7 @@ Super Harrison
 Author: Liang Chen
 Email: biolchen@gmail.com
 
-This game is for my boy, Harrison, who always bother me while I am
+This game is for my son, Harrison, who always bother me while I am
 working. I hope this game will keep him away from me for a while. 
 I hope you are also enjoying it!
 
@@ -46,7 +46,7 @@ class Act:
 
 class Superhero_Landing(Act):
     def play(self):
-        if hero.name == "Frank Castle":
+        if hero.name == "Franky Cattle":
             self.voice_over(1, 2, 3)
         else:
             self.voice_over(7, 8, 9, 10, 11, 12)
@@ -62,7 +62,7 @@ class Hells_kitchen(Act):
 
 
 class Atlantic_City(Act):
-    '''The Atlantic City Casino'''
+    '''The Atlantic City game room'''
     def __init__(self):
         super().__init__()
         self.jackpot = 1000
@@ -88,7 +88,7 @@ class Atlantic_City(Act):
             self.jackpot = 1000
         elif hero.gold <= 0:
             print("You are bankrupted")
-            input("Leave the casino")
+            input("Leave the game")
         self.menu_loop(scenes_menu).play()
 
     def wheel_turn(self):
@@ -430,10 +430,10 @@ class Game_data:
             13: "It is a nice weekend, you are hanging out in the bar " + "\U0001f37a" * 3,
             17:"Good choice! Now go out and kick his ass",
             18:"Come on! Show what you have got!",
-            19:"Please. Don't kill me...",
+            19:"Please, please...",
             20:"Run as far as you can, never show you face in my city",
             23:"Take cover...he is fighting back",
-            100:"WTF? Let's try again",
+            100:"Whaaat? Let's try again",
         }
 
 if __name__ == '__main__':
