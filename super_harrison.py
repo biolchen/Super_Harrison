@@ -1,10 +1,10 @@
 """
-The Marvel's hero
+Super Harrison
 
 Author: Liang Chen
 Email: biolchen@gmail.com
 
-This game is for my 3-years old boy, Harrison, who always bother me while I am
+This game is for my boy, Harrison, who always bother me while I am
 working. I hope this game will keep him away from me for a while. 
 I hope you are also enjoying it!
 
